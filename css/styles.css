@@ -141,6 +141,15 @@ color: #404bbf;
 /*------- Hero -----------*/
 .hero { 
 background-color: #2e2f42;
+background-image: 
+linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)),
+url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-width: 1440px;
+margin: 0 auto;
 padding-top: 188px;
 padding-bottom: 188px;
 }
@@ -199,6 +208,18 @@ gap: 24px;
 
 .strategy-items {
 max-width: 264px;
+}
+
+.strategy-item {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+background-color: #F4F4FD;
+width: 264px;
+height: 112px;
+margin-bottom: 8px;
 }
 
 .strategy-subtitle {
@@ -270,7 +291,24 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;  
+margin-bottom: 8px;
+}
+
+.team-link {
+display: flex; 
+align-items: center;
+justify-content: center;
+flex-direction: row;   
+gap: 24px;
 margin-bottom: 32px;
+}
+
+.team-svg {
+fill: #f4f4fd;
+width: 40px;
+height: 40px;
+border-radius: 1px;
+background-color: #4d5ae5;
 }
 /*------- -----------*/
 /*------- Protfolio -----------*/
